@@ -1,0 +1,19 @@
+{% extends 'base.html' %} {% block content %}
+<header style="background:#ffffff; color:#2c3e50;">
+    <div style="align-items:center;width:60%;"class="container" id="maincontent" tabindex="-1">
+        <label style="display:flex;"for="name">Nom du medecin :</label>
+          <input type="text" id="name" name="name" required/>
+        <label style="display:flex;" for="name">Prénom du médecin :</label>
+          <input type="text" id="name2" name="name2" required/>
+        <label style="display:flex;" for="name3">Numéro de téléphone :</label>
+          <input type="number" maxlength='12' id="name3" name="name3" required>
+        <label style="display:flex;" for="name4">ID Medecin :</label>
+          <input type="number" id="name4" name="name4" required/>
+        <label style="display:flex;" for="name5">Corps de l'ordonnance :</label>
+          <input type="text" id="name5" name="name5" maxlenght="12" required/>
+
+            <button style="color:white;background-color:#2C3E50;"class="kk" type="submit"><a href="medic">Valider</a></button>
+
+    </div>
+</header>
+{% endblock%}
